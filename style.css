@@ -1,0 +1,45 @@
+.main{
+    width: 800px;
+}
+
+span:nth-child(3n -2){
+    color: red;
+}
+
+span:nth-child(3n){
+    color: green;
+}
+
+.row:first-child{
+    color: red;
+}
+
+.row:last-child{
+    color: green;
+}
+
+.row2:nth-child(even){
+    color: red;
+}
+
+.row2:nth-child(odd){
+    color: green;
+}
+
+p:not(.text){
+    color: red;
+}
+
+.go:active{
+    color: black;
+    
+}
+
+.go{
+    text-decoration: none;
+}
+
+.test:active{
+    color: green;
+    text-decoration: none;
+}
