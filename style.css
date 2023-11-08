@@ -1,10 +1,26 @@
 .main{
     width: 800px;
+    
 }
 
 .six{
     position: relative;
     height: 400px;
+}
+
+.second{
+    position: relative;
+}
+
+.three{
+  padding-top: 100px;
+    position: relative;
+}
+
+.four{
+    padding-top: 100px;
+    position: relative;
+
 }
 
 .point{
@@ -33,4 +49,102 @@
     position: absolute;
     left: 140;
     top: 100;
+}
+
+.point1-2{
+    border: 1px solid red;
+    position: absolute;
+    left: 40;
+   
+}
+
+.point2-2{
+    border: 1px solid blue;
+    position: absolute;
+    left: 70;
+    top: 30;
+}
+
+.point3-2{
+    border: 1px solid green;
+    position: absolute;
+    left: 100;
+    top: 60;
+}
+
+.point1-3{
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    left: 40;
+   
+}
+
+.point2-3{
+    border: 1px solid blue;
+    background-color: blue;
+    position: absolute;
+    left: 70;
+    top: 130;
+}
+
+.point3-3{
+    border: 1px solid green;
+    background-color: green;
+    position: absolute;
+    left: 100;
+    top: 160;
+}
+
+.point1-4{
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    left: 40;
+   z-index: 2;
+}
+
+.point2-4{
+    border: 1px solid blue;
+    background-color: blue;
+    position: absolute;
+    left: 70;
+    top: 130;
+    z-index: 1;
+}
+
+.point3-4{
+    border: 1px solid green;
+    background-color: green;
+    position: absolute;
+    left: 100;
+    top: 160;
+    z-index: 0;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin-top: 300px;
+    position: relative;
+    background-color: green;
+    
+}
+
+.square-small{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.square-small1{
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.square-small2{
+    position: absolute;
+    top: 70;
+    left: 70;
 }
