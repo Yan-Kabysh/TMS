@@ -1,0 +1,18 @@
+.main{
+    height: 2000px;
+   position: relative;
+}
+.fixed-sq{
+    width: 600px;
+    height: 200px;
+    background-color: red;
+   margin: 100px 0 0 100px;
+    position: fixed;
+}
+.left_sq{
+    width: 200px;
+    height: 1000px;
+    background-color: green;
+    position: absolute;
+}
+
