@@ -2,57 +2,35 @@
     width: 800px;
 }
 
-span:nth-child(3n -2){
-    color: red;
-}
-
-span:nth-child(3n){
-    color: green;
-}
-
-.row:first-child{
-    color: red;
-}
-
-.row:last-child{
-    color: green;
-}
-
-.row2:nth-child(even){
-    color: red;
-}
-
-.row2:nth-child(odd){
-    color: green;
-}
-
-p:not(.text){
-    color: red;
-}
-
-.go:active{
-    color: black;
-    
-}
-
-.go{
-    text-decoration: none;
-}
-
-.test:active{
-    color: green;
-    text-decoration: none;
-}
-
 .six{
-    /* padding-left: 100px; */
     position: relative;
+    height: 400px;
 }
 
 .point{
-    height: 10px;
-    width: 10px;
-    border:2px solid red;
-    position: absolute;  
-    left: 0;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.point1{
+    border: 1px solid red;
+    position: absolute;
+    left: 40;
+   
+}
+
+.point2{
+    border: 1px solid blue;
+    position: absolute;
+    left: 90;
+    top: 50;
+}
+
+.point3{
+    border: 1px solid green;
+    position: absolute;
+    left: 140;
+    top: 100;
 }
