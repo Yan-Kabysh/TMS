@@ -1,0 +1,30 @@
+.main{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ava{
+    position: absolute;
+    top: 70;
+}
+
+.main-name{
+    padding-top: 46px;
+    display: flex;
+    
+}
+
+.logo{
+    width: 12px;
+    height: 12px;
+    padding-top: 25px;
+}
+
+.descr{
+    text-align: center;
+}
+
