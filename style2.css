@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+.main{
+    width: 1170px;
+    padding-left: 15px;
+}
+
+.main-title__h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 67px;
+}
+
+.main-title__underline{
+    width: 170px;
+    border: 1px solid  #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-title__h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 83px;
+}
+
+.main-quote{
+    display: flex;
+    gap: 30px;
+}
+
+.quote__text{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.quote__treangle{
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
+    margin-left: 85px;
+    margin-bottom: 46px;
+}
+
+.quote__person{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.quote__person_name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.quote__job{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 100px;
+    
+
+}
