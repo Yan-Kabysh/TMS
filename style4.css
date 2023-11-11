@@ -1,0 +1,62 @@
+.main{
+    width: 768px;
+    height: 100%;
+}
+
+.header{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #414141;
+}
+
+.items{
+    display: flex;
+
+}
+
+.item{
+     width: calc(33.33% - 50px);
+     /* position: relative; */
+     padding-top: 35px;
+     padding-left: 20px;
+
+}
+
+.item:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* добавляем тень при наведении */
+    transition: box-shadow .3 ease;
+}
+
+.item__like{
+    padding-bottom: 151px;
+    /* float: right; */
+    /* position: absolute; */
+}
+
+.item__color{
+    padding-top: 30px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+color: #414141;
+padding-bottom: 6px;
+}
+
+.item__type{
+    font-family: Roboto;
+font-size: 11px;
+font-weight: 400;
+color: #414141;
+padding-bottom: 8px;
+}
+
+.item__price{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+color: #414141;
+
+
+}
