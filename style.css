@@ -1,0 +1,18 @@
+.links{
+    display: flex;
+}
+
+.link{
+    width: 70px;
+    height: 30px;
+    border: 1px solid blue;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2.5s;
+}
+
+.link:hover{
+    transform: rotate(30deg);
+}
