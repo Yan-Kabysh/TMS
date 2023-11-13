@@ -1,0 +1,21 @@
+.five{
+    resize: none;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-theard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-four{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
