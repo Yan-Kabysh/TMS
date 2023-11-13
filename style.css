@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 2.5s;
+    transition: transform .5s;
 }
 
 .link:hover{
