@@ -1,0 +1,127 @@
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__burger{
+    padding-right: 104px;
+
+}
+
+.header__nav{
+    display: flex;
+    gap: 25px;
+    padding-right: 102px;
+}
+
+.header__name{
+    padding-right: 77px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+    padding-right: 74px;
+}
+
+.header__images{
+    display: flex;
+    gap: 30px;
+}
+
+.path{
+    display: flex;
+    gap: 5px;
+}
+
+.main__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3px solid #252525;
+    border-left: none;
+    border-right: none;
+}
+
+.main__btn{
+    width: 219px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__btn_active{
+    background: #E0BEA2;
+    color: white;
+}
+
+.personal__inputs{
+    display: flex;
+    gap: 30px;
+}
+
+.input{
+    height: 50px;
+    width: 270px;
+}
+
+.adress__inputs{
+    display: flex;
+    gap: 20px;
+
+}
+
+.adress__inputs_item{
+    width: 560px;
+    height: 50px;
+}
+
+.main__button{
+    background: #E0BEA2;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.path{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.personal__text, .adress__text{
+    /* padding-top: 20px; */
+    padding-bottom: 20px
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.last__text{
+    text-align: center;
+}
